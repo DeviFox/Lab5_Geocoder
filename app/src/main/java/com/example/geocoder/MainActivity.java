@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements CameraListener {
     MapView mapView;
     Button getButton;
     EditText searchEdit;
-    private final String MAPKIT_API_KEY = "48fafd2b-6dbe-4eec-9216-688d45b7595c";
+    private final String MAPKIT_API_KEY = "e6e3bb46-8ff9-49c6-b269-77f350a02933";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

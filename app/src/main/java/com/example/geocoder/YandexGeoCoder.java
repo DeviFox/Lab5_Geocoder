@@ -19,7 +19,7 @@ import okhttp3.Response;
 
 public class YandexGeoCoder extends Activity {
 
-    final String apikey = "a817921e-3bf3-4517-8504-37fc2b1d334a";
+    final String apikey = "d24546a6-2f79-4d26-a903-a7ba4031463e";
     private MapView mapView;
     private double lat;
     private double lot;
@@ -84,8 +84,9 @@ public class YandexGeoCoder extends Activity {
             }
     Runnable runanim = new Runnable() {
         public void run() {
-            mapView.getMap().move(new CameraPosition(new Point(lat, lot), 16.0f, 0.0f, 0.0f));
+            mapView.getMap().move(new CameraPosition(new Point(lat, lot), 12.0f, 0.0f, 0.0f));
             new Animation(Animation.Type.SMOOTH, 5);
+
         }
     };
 }
