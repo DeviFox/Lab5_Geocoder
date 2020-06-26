@@ -46,7 +46,7 @@ public class YandexGeoCoder extends Activity {
         Request request = new Request.Builder()
                 .url("https://geocode-maps.yandex.ru/1.x/?apikey="+apikey+"&format=json&geocode="+city +"&results=1")
                 .build();
-//передачаа запроса
+//передача запроса
         new OkHttpClient().newCall(request)
                 .enqueue(new Callback() {
                     @Override
